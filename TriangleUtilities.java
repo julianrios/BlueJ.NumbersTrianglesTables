@@ -40,7 +40,9 @@ public class TriangleUtilities {
     public static String getLargeTriangle() {
         StringBuilder triangle = new StringBuilder();
         for (int i=0; i<9; i++) {
+            // moves the rows 
             for (int j=0; j <= i; j++) {
+            // moves the columns which is based the number of i
             triangle.append("*");    
             }
             triangle.append("\n");
